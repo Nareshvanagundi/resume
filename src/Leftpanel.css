@@ -1,0 +1,167 @@
+.main-container-lp {
+    width: 30%;
+    background: #0e4971;
+    color:white;
+    border-radius: 12px;
+}
+.main-address-section{
+    width: 90%;
+}
+.image-section
+{
+    width: 55%;
+}
+
+/* .image-section{ */
+    /* border-radius: 50% !important; */
+    /* border: 1px solid gray; */
+    /* padding: 1rem; */
+/* } */
+
+.image-section img {
+    width: 80%; 
+    border-radius: 50% !important;   
+    padding: 1rem;
+    border: 2px solid gray;
+    background-color: white;
+}
+.label-section
+{
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 0.5rem;
+}
+.details-section
+{
+    flex-direction: column;
+    width: 60%;
+    padding: 0.5rem;
+    /* align-items: self-end; */
+}
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 1800px)
+{
+
+    .main-container-lp
+    {
+    
+      width: 26%;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px)
+{ 
+    .responsive-container-view
+    {
+        flex-direction: row;
+    }
+
+    .main-container-lp
+    {
+        width: 36% !important;
+    }
+
+    .image-section
+    {
+        position: relative;
+        left: 42px;
+    }
+
+    .image-section
+    {
+        position: relative;
+        left: 42px;
+    }
+
+    .image-section img
+    {
+        width: 50% !important;
+        padding: 0.5rem !important;
+        border: 1px solid gray;
+    }
+
+    .skill-heading h4, .languages-heading h4, .hobbies-heading h4
+    {
+        margin-top: 0.8rem !important;
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{ 
+    .responsive-container-view
+    {
+        flex-direction: row !important;
+    }
+
+    .main-container-lp
+    {
+        width: 50%;
+    }
+
+    .skill-heading h4, .languages-heading h4, .hobbies-heading h4
+    {
+        margin-top: 0.8rem !important;
+        font-size: 1rem;
+    }
+
+    .image-section
+    {
+        position: relative;
+        left: 42px;
+    }
+
+    .image-section img
+    {
+        width: 50% !important;
+        padding: 0.5rem;
+        border: 1px solid gray;
+    }
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 768px)
+{ 
+
+    .responsive-container-view
+    {
+        flex-direction: column-reverse;
+    }
+
+    .main-container-lp {
+        width: 72%;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px)
+{
+    .main-container-lp
+    {
+        width: 100%;
+        font-size: 12px !important;
+    } 
+
+    .image-section
+    {
+        position: relative;
+        left: 42px;
+    }
+
+    .image-section img
+    {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid gray;
+    }
+
+    .skill-heading h4, .languages-heading h4, .hobbies-heading h4
+    {
+        margin-top: 0.8rem !important;
+        font-size: 1rem;
+    }
+}
+
+
+
+

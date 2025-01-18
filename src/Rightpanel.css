@@ -1,0 +1,293 @@
+.main-container-rp
+{
+    width: 60%;
+    /* background: aqua; */
+    border-radius: 12px;
+}
+
+.name-title{
+    font-size: 3rem;
+    color: #003366;
+}
+.name-summary{
+    color: #003366;
+}
+.experience-title 
+{
+    /* background: linear-gradient(117.25turn, #003366 76%, #b0b0b0 86%); */
+    background: linear-gradient(391deg, #00336A 75%, #b0b0b0 90%); 
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 0 224px 6px 0;
+    width: 60%;
+}
+
+.experience
+{
+    border-right: 1px solid #00336A;
+    padding: 0px 8px;
+    /* color: #black; */
+    font-weight: 1000;
+}
+
+.experience-year
+{
+    color:#b0b0b0;
+    margin-left: 9px;
+    font-weight: 1000;
+}
+
+.company-name{
+    /* color: #00336A;  */
+    padding: 0px 8px;
+    font-size: 15px;
+}
+
+.passout-year
+{
+    color:#b0b0b0;
+    margin-left: 9px;
+    font-weight: 1000;
+}
+
+.education-name{
+    border-right: 1px solid #00336A;
+    /* color: #00336A;  */
+    padding: 0px 8px;
+    font-weight: 1000;
+}
+
+.collage-name{
+    /* color: #00336A;  */
+    padding: 0px 8px;
+}
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 1800px)
+{
+    .experience-title
+    {
+        width: 68%;
+    }
+
+    .experience-title span
+    {
+        font-size: 1.5rem;
+    }
+
+    .experience, .experience-year
+    {
+        font-size: 1.3rem;
+    }
+
+    .company-name
+    {
+        font-size: 1.1rem;
+    }
+
+    .content-text li {
+        font-size: 1rem;
+    }
+
+    .reposnsive-education-name-section
+    {
+        width: 64%;
+    }
+
+    .education-name, .passout-year
+    {
+        font-size: 1.3rem;
+    }
+
+    .collage-name
+    {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px)
+{ 
+    .responsive-container-view
+    {
+        flex-direction: row;
+    }
+    
+    .experience-title
+    {
+        width: 70%;
+    }
+
+    .content-text li
+    {
+        font-size: 0.8rem;
+    }
+
+    .reposnsive-education-name-section
+    {
+        width: 70%;
+    }
+
+    .collage-name
+    {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{ 
+    .responsive-container-view
+    {
+        flex-direction: row !important;
+    }
+
+   
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 768px)
+{ 
+
+    .responsive-container-view
+    {
+        flex-direction: column-reverse;
+    }
+
+    .main-container-rp
+    {
+        width: 100%;
+    }
+
+    .title-section .name-title
+    {
+        font-size: 1.5rem;
+    }
+
+    .name-summary
+    {
+        font-size: 1.2rem;
+    }
+
+    .summary-section p
+    {
+        font-size: 0.7rem;
+    }
+     
+    .experience-title 
+    {
+        width: 88%;
+        font-size: 1rem;
+    }
+
+    .experience 
+    {
+        font-size: 0.8rem;
+    }
+
+    .experience-year 
+    {
+        font-size: 0.8rem;
+    }
+
+    .company-name
+    {
+        font-size: 0.77rem;
+    }
+
+    .content-text li
+    {
+        font-size: 0.68rem;
+    }
+
+    .reposnsive-education-name-section
+    {
+        width: 80%;
+    }
+
+    .education-name, .passout-year
+    {
+        font-size: 0.8rem;
+    }
+
+    .collage-name
+    {
+        font-size: 0.68rem;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px)
+{ 
+
+    .responsive-container-view
+    {
+        flex-direction: column-reverse;
+    }
+
+    .main-container-rp
+    {
+        width: 100%;
+    }
+
+    .title-section .name-title
+    {
+        font-size: 1.5rem;
+    }
+
+    .name-summary
+    {
+        font-size: 1.2rem;
+    }
+
+    .summary-section p
+    {
+        font-size: 0.7rem;
+    }
+     
+    .experience-title 
+    {
+        width: 88%;
+        font-size: 1rem;
+    }
+
+    .experience 
+    {
+        font-size: 0.8rem;
+    }
+
+    .experience-year 
+    {
+        font-size: 0.7rem;
+    }
+
+    .company-name
+    {
+        font-size: 0.77rem;
+    }
+
+    .content-text li
+    {
+        font-size: 0.68rem;
+    }
+
+    .reposnsive-education-name-section
+    {
+        width: 80%;
+    }
+
+    .education-name, .passout-year
+    {
+        font-size: 0.8rem;
+    }
+
+    .collage-name
+    {
+        font-size: 0.68rem;
+    }
+}
+
+
+
+
+
+

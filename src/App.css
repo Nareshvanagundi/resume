@@ -27,6 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+div {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +42,170 @@
     transform: rotate(360deg);
   }
 }
+
+/* @media screen and (min-device-width: 320px) and (max-device-width: 425px)
+{
+  .main-container-lp
+  {
+    width: 100%;
+    font-size: 12px !important;
+  } 
+
+  .image-section
+  {
+    position: relative;
+    left: 42px;
+  }
+
+  .image-section img
+  {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid gray;
+  }
+
+  .skill-heading h4, .languages-heading h4, .hobbies-heading h4
+  {
+    margin-top: 0.8rem !important;
+    font-size: 1rem;
+  }
+
+  .main-container-rp
+  {
+    width: 100%;
+  }
+
+  .title-section .name-title
+  {
+    font-size: 1.5rem;
+  }
+
+  .name-summary
+  {
+    font-size: 1.2rem;
+  }
+
+  .summary-section p
+  {
+    font-size: 0.7rem;
+  }
+   
+  .experience-title 
+  {
+    width: 88%;
+    font-size: 1rem;
+  }
+
+  .experience 
+  {
+    font-size: 0.8rem;
+  }
+
+  .experience-year 
+  {
+    font-size: 0.7rem;
+  }
+
+  .company-name
+  {
+    font-size: 0.77rem;
+  }
+
+  .content-text li
+  {
+    font-size: 0.68rem;
+  }
+
+  .reposnsive-education-name-section
+  {
+    width: 80%;
+  }
+
+  .education-name, .passout-year
+  {
+    font-size: 0.8rem;
+  }
+
+  .collage-name
+  {
+    font-size: 0.68rem;
+  }
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 768px)
+{ 
+
+  .responsive-container-view
+  {
+    flex-direction: column-reverse;
+  }
+
+  .main-container-lp 
+  {
+    width: 100%;
+    font-size: 12px !important;
+  }
+
+  .main-container-rp
+  {
+    width: 100%;
+  }
+
+  .title-section .name-title
+  {
+    font-size: 1.5rem;
+  }
+
+  .name-summary
+  {
+    font-size: 1.2rem;
+  }
+
+  .summary-section p
+  {
+    font-size: 0.7rem;
+  }
+   
+  .experience-title 
+  {
+    width: 88%;
+    font-size: 1rem;
+  }
+
+  .experience 
+  {
+    font-size: 0.8rem;
+  }
+
+  .experience-year 
+  {
+    font-size: 0.8rem;
+  }
+
+  .company-name
+  {
+    font-size: 0.77rem;
+  }
+
+  .content-text li
+  {
+    font-size: 0.68rem;
+  }
+
+  .reposnsive-education-name-section
+  {
+    width: 80%;
+  }
+
+  .education-name, .passout-year
+  {
+    font-size: 0.8rem;
+  }
+
+  .collage-name
+  {
+    font-size: 0.68rem;
+  }
+
+} */
+
