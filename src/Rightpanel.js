@@ -40,7 +40,7 @@ function Rightpanel(props)
             </div>
 
             <div className="experience-section" >
-                <div className="experience-title p-2 g-col-6 text-uppercase" >
+                <div className={`experience-title p-2 g-col-6 text-uppercase ${props.style.color === 'white' ? 'light-theme' : 'dark-theme'}`}  >
                   <span> Experienece </span>
                 </div>
             </div>
@@ -81,7 +81,7 @@ function Rightpanel(props)
             </div>
 
             <div className="experience-section">
-                <div className="experience-title p-2 g-col-6 text-uppercase">
+                <div className={`experience-title p-2 g-col-6 text-uppercase ${props.style.color === 'white' ? 'light-theme' : 'dark-theme'}`}>
                   <span> Education </span>
                 </div>
             </div>

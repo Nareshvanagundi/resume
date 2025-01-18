@@ -25,6 +25,16 @@
     width: 60%;
 }
 
+.light-theme {
+    background: linear-gradient(391deg, #00336A 75%, #b0b0b0 90%); 
+    color:white;
+}
+
+.dark-theme {
+    background: black !important;
+    color:white;
+}
+
 .experience
 {
     border-right: 1px solid #00336A;
