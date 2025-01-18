@@ -30,7 +30,7 @@ function App() {
     
       <div className='d-flex flex-column p-3'>
           <div className="form-check form-switch d-flex justify-content-end">
-              <input className="form-check-inputs" type="checkbox"  checked={isChecked}  onClick={toggleMode} role="switch" id="flexSwitchCheckChecked" />
+              <input className="form-check-inputsnpm" type="checkbox"  checked={isChecked}  onClick={toggleMode} role="switch" id="flexSwitchCheckChecked" />
               <label className="form-check-label" for="flexSwitchCheckChecked">{ChexkBoxLabelValue}</label>
           </div>
           <div className="d-flex p-3 border border-secondary-subtle responsive-container-view">
