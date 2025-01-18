@@ -39,8 +39,8 @@ function Rightpanel(props)
                 </p>
             </div>
 
-            <div className="experience-section">
-                <div className="experience-title p-2 g-col-6 text-uppercase">
+            <div className="experience-section" >
+                <div className="experience-title p-2 g-col-6 text-uppercase" >
                   <span> Experienece </span>
                 </div>
             </div>
