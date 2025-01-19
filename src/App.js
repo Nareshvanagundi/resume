@@ -2,11 +2,13 @@ import './App.css';
 import Leftpanel from './Leftpanel.js';
 import Rightpanel from './Rightpanel.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {useState} from 'react';
-
+import React, {useState, useRef} from 'react';
+import { jsPDF } from "jspdf";
+import html2canvas from 'html2canvas';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
-
+  
   const [isChecked, setIsChecked] = useState(false);
   const [ChexkBoxLabelValue,setChexkBoxLabelValue] = useState("White mode");
 
@@ -25,11 +27,33 @@ function App() {
 
   };
 
+  const pdRef = useRef(null); 
+  const downloadPdf  = async (e)=>{
+
+    const input = pdRef.current;
+    try{
+      const canvas = await html2canvas(input);
+      const imaData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF({
+          orientation: "portrait",
+          unit: "px",
+          format: "a4"
+      });
+
+      const width = pdf.internal.pageSize.getWidth();
+      const height = (canvas.height*width)/canvas.width;
+      pdf.addImage(imaData,"PNG",0,0,width,height);
+      pdf.save("Nareshresume.pdf"); 
+    }catch(e){
+     console.log(e);
+    }
+  }
+
   return (
     <div className="container p-2" >
-    
-      <div className='d-flex flex-column p-3'>
+      <div className='d-flex flex-column p-3' ref={pdRef}>
           <div className="form-check form-switch d-flex justify-content-end">
+              <FontAwesomeIcon icon="fa-solid fa-download"  style={{ cursor: "pointer" }}  onClick={downloadPdf} className='m-1'/>
               <input className="form-check-inputsnpm" type="checkbox"  checked={isChecked}  onClick={toggleMode} role="switch" id="flexSwitchCheckChecked" />
               <label className="form-check-label" for="flexSwitchCheckChecked">{ChexkBoxLabelValue}</label>
           </div>
