@@ -43,7 +43,7 @@ function Leftpanel(props)
                     </div>
 
                     <div className="details-section d-flex">
-                        <span>+91 963258741 </span>
+                        <span>+91 8867189700 </span>
                     </div>
 
                 </div>
@@ -54,7 +54,7 @@ function Leftpanel(props)
                     </div>
 
                     <div className="details-section d-flex">
-                        <span>info.free@gmail.com </span>
+                        <span>nareshvanagundi@gmail.com </span>
                     </div>
 
                 </div>
@@ -65,7 +65,7 @@ function Leftpanel(props)
                     </div>
 
                     <div className="details-section d-flex">
-                        <span> 120 Great portland Street Londan W2W 6tq </span>
+                        <span> Near HLC kenal side toranagallu rs, toranagallu 583123 </span>
                     </div>
                     
                 </div>
@@ -76,7 +76,7 @@ function Leftpanel(props)
                     </div>
 
                     <div className="details-section d-flex">
-                        <span> info.free@github.com </span>
+                        <span> https://github.com/Nareshvanagundi </span>
                     </div>
                     
                 </div>
