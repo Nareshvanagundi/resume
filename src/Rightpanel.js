@@ -73,7 +73,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus, beatae expedita necessitatibus. Quos eligendi quis rem similique!</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
                 </ul>
             </div>    
 
@@ -83,7 +83,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus, beatae expedita necessitatibus. Quos eligendi quis rem similique!</li>
+                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
                 </ul>
             </div>  
 
@@ -93,7 +93,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus, beatae expedita necessitatibus. Quos eligendi quis rem similique!</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
                 </ul>
             </div>  
 
@@ -103,7 +103,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus, beatae expedita necessitatibus. Quos eligendi quis rem similique!</li>
+                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
                 </ul>
             </div>      
 
@@ -113,7 +113,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus, beatae expedita necessitatibus. Quos eligendi quis rem similique!</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
                 </ul>
             </div>     
 
