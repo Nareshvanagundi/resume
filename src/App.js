@@ -42,7 +42,7 @@ function App() {
 
       const width = pdf.internal.pageSize.getWidth();
       const height = (canvas.height*width)/canvas.width;
-      pdf.addImage(imaData,"PNG",0,0,width,height);
+      pdf.addImage(imaData,"PNG",0,0,width,height); 
       pdf.save("Nareshresume.pdf"); 
     }catch(e){
      console.log(e);
