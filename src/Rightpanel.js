@@ -32,7 +32,7 @@ function Rightpanel(props)
             </div>
 
             <div className="summary-section">
-                <p className="lh-1 mx-auto p-2" >
+                <p className="lh-1 mx-auto p-2" > 
                     "Skilled PHP and JavaScript developer with 4 years of experience in designing, developing, and maintaining web applications. Proficient in front-end 
                     frameworks like React. Seeking to leverage my expertise client-side technologies to contribute to the growth of a forward-thinking company 
                     while continuing to advance my skills in full-stack development."
