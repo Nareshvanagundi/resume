@@ -49,7 +49,7 @@ function Rightpanel(props)
                 <div className="m-4">
                     <div className="d-flex">
                         <h6 className="experience"> Infomaze Elite Pvt LTD  </h6>
-                        <h6 className="experience-year">2025 -present</h6>
+                        <h6 className="experience-year">2022-2025 -present</h6>
                     </div>
                     <h6 className="company-name">PHP developer | Zoho developer | Front-end developer</h6>
                 </div>
@@ -66,24 +66,15 @@ function Rightpanel(props)
                   <span> Projects </span>
                 </div>
             </div>
-            
-            <div className="m-4">
-                <div className="d-flex reposnsive-education-name-section">
-                    <h6 className="education-name">Box of Bestow  </h6>
-                </div>
-
-                <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
-                </ul>
-            </div>    
 
             <div className="m-4">
                 <div className="d-flex reposnsive-education-name-section">
                     <h6 className="education-name">Drapkings </h6>
                 </div>
 
-                <ul className="content-text m-4">
-                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
+                <ul className="content-text m-1">
+                 <li>Developed an online quotation system to streamline the process of requesting and generating quotes for draper services and products, improving customer experience and operational efficiency,I Contributed to developing and maintaining backed services to manage customer data and workflow. I collaborated with the team to integrated a backed system      for generating automated quotes based on customer dataa</li>
+                 <li><b>Technologies:</b>HTML,CSS,Jquery and PhpMyAdmin</li>
                 </ul>
             </div>  
 
@@ -92,8 +83,9 @@ function Rightpanel(props)
                     <h6 className="education-name">IP Tech </h6>
                 </div>
 
-                <ul className="content-text m-4">
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
+                <ul className="content-text m-1">
+                    <li>Creating a quoting application using Zoho Creator that replicates the datacollection and quote creation process of in-Position Technologies' (IPT) existing home-grown application (IPT-APP). integrate Creator with Zoho CRM for data synchronizationand include the ability to generate payment links using Stripe for online payments.</li>
+                    <li><b>Technologies:</b>Zoho Creator,Zoho CRM,Zoho Writier,Restapi,Stripe</li>
                 </ul>
             </div>  
 
@@ -102,8 +94,9 @@ function Rightpanel(props)
                     <h6 className="education-name">Quickzy </h6>
                 </div>
 
-                <ul className="content-text m-4">
-                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
+                <ul className="content-text m-1">
+                 <li>Stepify forms are implementing it with Zoho Creator Pages. After completing the form submission, the data will be pushed to Zoho CRM modules. The form is integrated with the Tafin Bank API, which updates balance and expense data in the CRM, associating it with the relevant record based on condition.</li>
+                 <li><b>Technologies:</b>Zoho Creator,Zoho CRM,Restapi</li>
                 </ul>
             </div>      
 
@@ -112,8 +105,10 @@ function Rightpanel(props)
                     <h6 className="education-name">SameDay Solar </h6>
                 </div>
 
-                <ul className="content-text m-4">
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam porro neque saepe laborum alias molestias animi ut tenetur provident delectus ducimus</li>
+                <ul className="content-text m-1">
+                    <li>The role sales representative, Admin, and Site Technician - has specific tasks and responsibilities, ensuring that the workflow remains efficient and organized. The Sales Representative initiates the process by creating a new lead and requesting the site survey, while the Admin oversees the entire process, ensuring that the Site Technician is assigned and that al
+                    necessary documentation is completed. The Site Technician performs the site survey and submits the necessary documents for approval, while the Admin reviews the documents and either approves or rejects the lead based on the completeness of the information provided.</li>
+                    <li><b>Technologies:</b>HTML,CSS,Jquery,Zoho Creator and widget,Zoho Project and Restapi</li>
                 </ul>
             </div>     
 
