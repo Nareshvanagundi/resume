@@ -6,7 +6,7 @@ import React, {useState, useRef} from 'react';
 import { jsPDF } from "jspdf";
 import html2canvas from 'html2canvas';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import resumne from './Naresh_resume.pdf';
 function App() {
   
   const [isChecked, setIsChecked] = useState(false);
@@ -53,7 +53,8 @@ function App() {
     <div className="container p-2" >
       <div className='d-flex flex-column p-3' ref={pdRef}>
           <div className="form-check form-switch d-flex justify-content-end">
-              <FontAwesomeIcon icon="fa-solid fa-download"  style={{ cursor: "pointer" }}  onClick={downloadPdf} className='m-1'/>
+            {/* onClick={downloadPdf}  */}
+              <a href={resumne} download="Naresh_resume.pdf"><FontAwesomeIcon icon="fa-solid fa-download"  style={{ cursor: "pointer" }}  className='m-1'/></a>
               <input className="form-check-inputsnpm" type="checkbox"  checked={isChecked}  onClick={toggleMode} role="switch" id="flexSwitchCheckChecked" />
               <label className="form-check-label" for="flexSwitchCheckChecked">{ChexkBoxLabelValue}</label>
           </div>

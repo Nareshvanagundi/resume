@@ -73,7 +73,7 @@ function Rightpanel(props)
                 </div>
 
                 <ul className="content-text m-1">
-                 <li>Developed an online quotation system to streamline the process of requesting and generating quotes for draper services and products, improving customer experience and operational efficiency,I Contributed to developing and maintaining backed services to manage customer data and workflow. I collaborated with the team to integrated a backed system      for generating automated quotes based on customer dataa</li>
+                 <li>Developed an online quotation system to streamline the process of requesting and generating quotes for draper services and products, improving customer experience and operational efficiency,I Contributed to developing and maintaining backed services to manage customer data and workflow. I collaborated with the team to integrated a backed system      for generating automated quotes based on customer data</li>
                  <li><b>Technologies:</b>HTML,CSS,Jquery and PhpMyAdmin</li>
                 </ul>
             </div>  
